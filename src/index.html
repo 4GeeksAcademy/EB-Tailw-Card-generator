@@ -3,22 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Card Generator</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    
   </head>
   <body>
-    <div class="flex flex-col items-center">
-      <h1 class="text-xl mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="bg-yellow-300 w-full text-center mt-4 p-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="absolute bottom-0 w-full text-center p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    
+<div class="h-screen bg-green-800 flex justify-center items-center">
+
+  <div class="my-card w-[300px] h-[450px] bg-green-400 rounded-xl mt-12 flex flex-col justify-center relative"> 
+  <div class="text-center text-red-700 text-9xl z-10"> K </div>
+  <div class="text-red-700 text-8xl absolute top-4 left-4 z-10">♥</div>
+  <div class="text-red-700 text-8xl absolute bottom-4 right-4 rotate-180 z-10">♥</div>
+  
+  <div class=" absolute inset-2 border-2 border-black rounded-xl bg-green-100"></div>
+  </div>
+  </div>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
